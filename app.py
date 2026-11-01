@@ -7,7 +7,7 @@ st.set_page_config(layout="wide")
 st.title("Stock Market Analysis Dashboard")
 
 # =====================================
-# Load data
+# 1 Load data
 # =====================================
 
 df = pd.read_csv("csv/final_data.csv")
@@ -31,7 +31,7 @@ view = st.sidebar.selectbox(
 
 
 # =====================================
-# 1️⃣ STOCK ANALYSIS VIEW
+#  STOCK ANALYSIS VIEW
 # =====================================
 
 if view == "Stock Analysis":
@@ -66,7 +66,7 @@ if view == "Stock Analysis":
 
 
 # =====================================
-# 2️⃣ SECTOR ANALYSIS VIEW
+# 2️ SECTOR ANALYSIS VIEW
 # =====================================
 
 elif view == "Sector Analysis":
@@ -86,7 +86,7 @@ elif view == "Sector Analysis":
 
 
 # =====================================
-# 3️⃣ MARKET SUMMARY VIEW
+# 3️ MARKET SUMMARY VIEW
 # =====================================
 
 elif view == "Market Summary":
@@ -118,7 +118,7 @@ elif view == "Market Summary":
 
 
 # =====================================
-# 4️⃣ CORRELATION VIEW
+# 4️ CORRELATION VIEW
 # =====================================
 
 elif view == "Correlation Heatmap":
@@ -136,7 +136,7 @@ elif view == "Correlation Heatmap":
 
 
 # =====================================
-# 5️⃣ RAW DATA VIEW
+# 5️ RAW DATA VIEW
 # =====================================
 
 elif view == "Raw Data":
